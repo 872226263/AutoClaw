@@ -64,6 +64,14 @@ curl http://127.0.0.1:9317/health
 {"ok":true,"connected":false,"port":9317}
 ```
 
+## AutoXJS 下载
+
+如果你需要安装 AutoXJS，建议直接到这个社区维护仓库获取：
+
+- 仓库地址：<https://github.com/aiselp/AutoX>
+
+这个项目本身不捆绑 APK，公开发布时也建议统一引导用户去上面的仓库下载和安装。
+
 ## 连接安卓设备
 
 在安卓端：

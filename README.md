@@ -64,6 +64,14 @@ Expected result:
 {"ok":true,"connected":false,"port":9317}
 ```
 
+## AutoXJS download
+
+If you need an AutoXJS app build to use with AutoClaw, use the community-maintained AutoX repository:
+
+- Repository: <https://github.com/aiselp/AutoX>
+
+When publishing this project, prefer pointing users to that repository for AutoXJS installation rather than bundling APK files in this repo.
+
 ## Connect an Android device
 
 On the Android side:
