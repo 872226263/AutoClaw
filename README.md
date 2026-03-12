@@ -43,6 +43,25 @@ AutoClaw lets a computer connect to an AutoXJS-enabled Android device, send scri
 npm install
 ```
 
+## Install in OpenClaw
+
+If you want to use AutoClaw as an OpenClaw skill from this repository, the simplest way is to clone it into your local skills directory.
+
+Example:
+
+```bash
+git clone https://github.com/872226263/AutoClaw.git ~/.openclaw/workspace/skills/autoclaw
+```
+
+Then make sure your OpenClaw instance can see that skill directory.
+
+Minimum expectation:
+- `SKILL.md` is at the repository root
+- helper scripts stay under `scripts/`
+- example files stay under `examples/`
+
+After that, OpenClaw can load it as a normal local skill.
+
 ## Start the bridge
 
 ```bash
